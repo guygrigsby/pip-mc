@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.oink.pip_mc.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [],
+  "client": ["PIPMixin"],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

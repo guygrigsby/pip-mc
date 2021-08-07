@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "pip_mc",
+  "version": "${version}",
+
+  "name": "Picture In Picture Mod",
+  "description": "Keep an eye on something else with your PIP cameras",
+  "authors": ["OINK.DEV"],
+  "contact": {
+    "homepage": "https://oink.dev/",
+    "sources": "https://github.com/oink.dev/pip"
+  },
+
+  "license": "MIT",
+  "icon": "assets/pip_mc/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.oink.pip_mc.Mod"]
+  },
+  "mixins": ["pip_MC.mixins.json"],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
